@@ -17,7 +17,7 @@
 
 </head>
 <body>
-    <canvas id="canvas">
+    
     <nav class="navbar navbar-expand-lg bg-dark mynav" role="navigation" id="navbar">
         <div class="container">
             <div class="navbar-nav align-items-center">
@@ -40,17 +40,17 @@
             </div>
         </div>
     </nav>
-
+   
       <div class="container mycontent">
-
+   
       
     {% block content %}
     {% endblock %}
-
-</div>
-</canvas>
+   
+  </div>
+<canvas id="canvas"> </canvas>
 </body>
-<scriptja type="text/javascript" src="{%static 'simplesocial/js/master.js' %}">
+<script type="text/javascript" src="{% static 'css/simplesocial/js/master.js' %}">
 
 </script>
 </html>
